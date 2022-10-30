@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+.square {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    position: absolute;
+}
+.first {
+    border-color: red;
+    position: absolute;
+    left: 10px;
+}
+.second {
+    border-color: blue;
+    left: 160px;
+}
+.third {
+    border-color: green;
+    left: 310px;
+}
+.square__second {
+    border: none;
+}
+.first__second {
+    background-color: pink;
+    z-index: 1;
+}
+.second__second {
+    background-color: lightskyblue;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    z-index: -1;
+}
+.third__second {
+    background-color: lightgreen;
+    position: relative;
+    left: 125px;
+    top: 0px;
+    z-index: 1;
+}
+.border__third {
+    height: 300px;
+    width: 150px;
+    border: 1px solid black;
+}
+.circle {
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 37px;
+    top: 37px;
+}
+.forth {
+    width: 100%;
+    height: 145px;
+    background-color: plum;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: bottom;
+    z-index: 100;
+}
+.fifth {
+    
+    width: 100%;
+    height: 100px;
+    background-color: yellowgreen;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    float: left;
+}
+.sixth__face {
+    border-radius: 50%;
+    background-color: yellowgreen;
+    height: 300px;
+    width: 300px;
+}
+.sixth__left_eye {
+    border-radius: 50%;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -220px;
+    left: 70px;
+}
+.sixth__right_eye {
+    border-radius: 50%;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -270px;
+    left: 180px;
+}
+.sixth__nose {
+    border-radius: 50%;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -250px;
+    left: 125px;
+}
+.sixth__mouse {
+    position: relative;
+    top: -310px;
+    height:150px;
+    width: 75px;
+    border-radius: 150px 0 0 150px;
+    border-top: 20px solid white;
+    border-left: 20px solid white;
+    border-bottom: 20px solid white;
+    transform: translate(105px) rotate(-90deg);
+    z-index: 1;
+}
